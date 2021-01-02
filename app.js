@@ -75,3 +75,30 @@
 
 //  alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
 
+//..............Chepter # 3..............//
+
+ //.......... Question 1..........//
+
+//  var age = 22
+//  alert(age);
+
+ //.......... Question 2..........//
+
+//  var a = "You have visited this site 10 times"
+//  alert(a);
+
+ //.......... Question 3..........//
+
+//  var birthYear = "My birth year is 1997 <br > Data type of my declared variable is number"
+//  document.write(birthYear);
+
+ //.......... Question 4..........//
+
+//  var visitorName = prompt("What is your name")
+// var quantity = prompt("How much quantity you want")
+// var productTitle = prompt("what is product name?")
+// document.write(visitorName + " " + "Ordered" + " " + quantity + " " + productTitle + " " + "From hfshop.com.pk")
+
+ //.......... Question 4..........//
+
+ 
