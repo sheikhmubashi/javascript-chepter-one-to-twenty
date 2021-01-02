@@ -75,5 +75,3 @@
 
 //  alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
 
-
-alert("asljkbdfasklbdkljasnkldnaslkdn")
