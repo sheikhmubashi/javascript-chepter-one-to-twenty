@@ -32,4 +32,48 @@
 
 //..............Chepter # 2..............//
 
-alert("asjkbjkasbdkjasbkdbaskjdbas")
+ //.......... Question 1..........//
+
+//  var username;
+
+  //.......... Question 2..........//
+
+//   var myName = "Mubashir Ejaz";
+
+//.......... Question 3..........//
+
+// var massage; 
+// massage = "Hello World";
+// alert(massage);
+
+ //.......... Question 4..........//
+
+// var name = "Mubashir";
+// var age = "22";
+// var Chepter = "certifies web & mobile application development";
+// alert(name);
+// alert(age);
+// alert(Chepter);
+
+ //.......... Question 5..........//
+
+//  alert("PIZZA\nPIZZ\nPIZ\nPI\nP")
+
+ //.......... Question 6..........//
+
+//  var email = "smubashir655@gmail.com"
+//  alert("My email address is " + " " + email)
+
+// var book = "A smarter way to learn JavaScript";
+// alert("I am trying to learn from the book" + " " + book);
+
+ //.......... Question 7..........//
+
+//  document.write("<b>Yah! I can write HTML</b> content trough JavaScript")
+
+ //.......... Question 8..........//
+
+//  alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬")
+
+
+alert("asljkbdfasklbdkljasnkldnaslkdn")
