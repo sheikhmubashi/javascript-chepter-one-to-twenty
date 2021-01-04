@@ -99,6 +99,34 @@
 // var productTitle = prompt("what is product name?")
 // document.write(visitorName + " " + "Ordered" + " " + quantity + " " + productTitle + " " + "From hfshop.com.pk")
 
- //.......... Question 4..........//
+//..............Chepter # 4..............//
 
- 
+ //.......... Question 1..........//
+
+//  var a, b, c;
+
+  //.......... Question 2..........//
+
+  //5 legal variables
+  // var one;
+  // var two2;
+  // var _three;
+  // var $four;
+  // var five5;
+
+  //5 illegal variables
+
+//   var 1one;
+//   var -two;
+//   var *_three;
+//   var %four;
+//   var @five 
+
+
+  //.......... Question 3..........//
+
+  // document.write("<h1>Rules for naming JS variables</h1> Variable names can only contain , Numbers,$ and _.For example $my_1stVariable <br>  Variables must begin with a $, latter or_. For example $name, _name or name <br>  Variable names are case sansitive <br>  Variable names should not be JS keywords")
+
+
+//..............Chepter # 5..............//
+
