@@ -130,3 +130,76 @@
 
 //..............Chepter # 5..............//
 
+  //.......... Question 1..........//
+
+// var one = 5;
+// var two = 7;
+// var three = one + two;
+// document.write("Sum of" + " " + one + " " + "And" + " " + two + " " + "is" + " " + three )
+
+  //.......... Question 2..........//
+
+//Subtraction
+
+// var one = 5;
+// var two = 7;
+// var three = one - two;
+// document.write("Subtraction of" + " " + one + " " + "And" + " " + two + " " + "is" + " " + three )
+
+//Multiplication
+
+// var one = 5;
+// var two = 7;
+// var three = one * two;
+// document.write("Multiplication of" + " " + one + " " + "And" + " " + two + " " + "is" + " " + three )
+
+//Division
+
+// var one = 10;
+// var two = 4;
+// var three = one / two;
+// document.write("Division of" + " " + one + " " + "And" + " " + two + " " + "is" + " " + three )
+
+//Modulus
+
+// var one = 10;
+// var two = 4;
+// var three = one % two;
+// document.write("Modulus of" + " " + one + " " + "And" + " " + two + " " + "is" + " " + three )
+
+//.......... Question 3..........//
+
+// var a;
+// var b = 10;
+// document.write("Value after variable declaration is" + " " + a + " " + "<br />" + "Initial value:" + " " + b  );
+// b++
+// document.write("<br />" + "Value after increment is:" + b);
+// b = b + 7;
+// document.write("<br />" + "Value after addition is:" + b);
+// b--;
+// document.write("<br />" + "Value after decrement is:" + b);
+// b = b % 3;
+// document.write("<br />" + " The remainder is :" + b);
+
+//.......... Question 4..........//
+
+// var cost = 600;
+// document.write("Total cost to buy 5 tickets to a movie is" + " " + cost * 5 + "PKR" );
+
+//.......... Question 5..........//
+
+// var two = 2;
+// document.write("Table of two");
+// document.write("<br>" + "2 x 1 =" + " " + two * 1)
+// document.write("<br>" + "2 x 2 =" + " " + two * 2)
+// document.write("<br>" + "2 x 3 =" + " " + two * 3)
+// document.write("<br>" + "2 x 4 =" + " " + two * 4)
+// document.write("<br>" + "2 x 5 =" + " " + two * 5)
+// document.write("<br>" + "2 x 6 =" + " " + two * 6)
+// document.write("<br>" + "2 x 7 =" + " " + two * 7)
+// document.write("<br>" + "2 x 8 =" + " " + two * 8)
+// document.write("<br>" + "2 x 9 =" + " " + two * 9)
+// document.write("<br>" + "2 x 10 =" + " " + two * 10)
+
+//.......... Question 6..........//
+
