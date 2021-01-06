@@ -203,3 +203,74 @@
 
 //.......... Question 6..........//
 
+// var c = 25;
+// var f1 = c * 5 / 9;
+// var f = f1 + 32;
+// document.write(f);
+
+//.......... Question 7..........//
+
+// var bag = 500;
+// document.write("Price of item 1 is" + " " + bag);
+// var qty1 = 2;
+// document.write("<br>" + "Quantity of item 1 is" + " " + qty1)
+// var shoes = 800;
+// document.write("<br>" + "Price of item 2 is" + " " + shoes)
+// var qty2 = 4;
+// document.write("<br>" + "Quantity of item 2 is" + " " + qty2)
+// var ship = 100;
+// document.write("<br>" + "Shipping Charges" + " " + ship)
+// document.write("<br>")
+// var price1 = bag * qty1;
+// var price2 = shoes * qty2;
+// var total = price1 + price2 + ship;
+// document.write("<br>" + "Total  cost of your order is" + " " + total)
+
+//.......... Question 8..........//
+
+
+// document.write("<h1>Mark Sheet</h1>")
+// var total = 980;
+// document.write("Total marks:" + " " + total)
+// var mark = 804;
+// document.write("<br>Marks Obtained: " + mark)
+// var parc = mark * 100 / total;
+// document.write("<br>Percentage: " + parc + "%")
+ 
+
+//.......... Question 9..........//
+
+// document.write("<h1>Currency in PKR</h1>")
+// var us = 10;
+// var su = 25;
+// var uspkr = 104.80;
+// var supkr = 28;
+// var ustotal = us * uspkr;
+// var sutotal = su * supkr;
+// var total =  ustotal + sutotal;
+// document.write("Total Currency in PKR: " + total);
+
+
+//.......... Question 10..........//
+
+// var a = 10;
+// document.write(a + 5 * 10 / 2);
+
+
+//.......... Question 11..........//
+
+// var year = +prompt("What is Current year?");
+// document.write("Current Year: " + year);
+// var birth = +prompt("What is your birth year");
+// document.write("<br>Birth Year: " + birth);
+// document.write("<br>");
+// var age = year - birth;
+// document.write("<br>Your age is " + age);
+
+//.......... Question 13..........//
+
+var snack = cake;
+var age = 20;
+var maxage = 80;
+var  maxamo = 2;
+document.write();
