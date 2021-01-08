@@ -269,8 +269,16 @@
 
 //.......... Question 13..........//
 
-var snack = cake;
-var age = 20;
-var maxage = 80;
-var  maxamo = 2;
-document.write();
+document.write("<h1>The Life Time Supply Calculator</h1>");
+var snack = prompt("What is your faveruite Snack ?");
+document.write("Faveruite Snack: " + snack);
+var currentAge = prompt("What is your age ?")
+document.write("<br>Current Age: " + currentAge);
+var maxAge = prompt("What is your maximum age ?");
+document.write("<br>Estimated Maximum Age: " + maxAge);
+var qtySnack = prompt("What is your daily consumtion ?");
+document.write("<br>Amount of snacks per day: " + qtySnack);
+var a = maxAge - currentAge;
+var b = a * 365;
+var total = b * qtySnack;
+document.write("<br>You will need " + total + " " + snack + " " + "to last you umtil the ripe old age of " +  maxAge);
