@@ -316,3 +316,21 @@
 // document.write("The value of a-- is: " + a)
 // a--;
 // document.write("<br>Now the value of a is: " + a)
+
+//.......... Question 2..........//
+
+// var a = 2;
+// document.write("a is: " + a);
+// var b = 1;
+// document.write("<br>b is " + b);
+// var result = --a - --b + ++b + b--;
+// document.write("<br>result is " + result);
+
+//.......... Question 3..........//
+
+// var name = prompt("Enter your name");
+// document.write("Hello " + name);
+
+//.......... Question 5..........//
+
+
