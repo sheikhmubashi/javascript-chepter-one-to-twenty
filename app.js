@@ -345,29 +345,12 @@
 // var subject2 = prompt("Enter your second subject", "Urdu");
 // var subject3 = prompt("Enter your third subject", "Math");
 // var totalMarks = 100;
-// var obtained1 = prompt("Enter your first subject obtained marks");
-// var obtained2 = prompt("Enter your second subject obtained marks");
-// var obtained3 = prompt("Enter your third subject obtained marks");
+// var obtained1 = +(prompt("Enter your first subject obtained marks"));
+// var obtained2 = +(prompt("Enter your second subject obtained marks"));
+// var obtained3 = +(prompt("Enter your third subject obtained marks"));
 // var per1 = (obtained1 / totalMarks) * 100;
 // var per2 = (obtained2 / totalMarks) * 100;
 // var per3 = (obtained3 / totalMarks) * 100;
-// var OB = obtained1 + obtained2 + obtained3;
+// var OB = obtained1 + obtained2  + obtained3;
 // var PER = (OB / 300) * 100;
-// document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percantage</th></tr><tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtained1 + "</td><td>" + per1 + "%" + "</td></tr><tr><td> " + subject2 + " </td><td> " + totalMarks +" </td><td>"+ obtained2 +"</td><td>"+ per2 +"%</td></tr><tr><td> "+ subject3 +" </td><td> "+ totalMarks +" </td><td> " + obtained3 + " </td><td> "+ per3 +"%</td></tr><tr><td></td><td> " + 300 + " </td><td>" + OB + "</td><td>"+ PER +"%</td></tr></table>")
-
-
-// var sub1 = prompt("Enter Your First Subject Name");
-// var sub2 = prompt("Enter Your Second Subject Name");
-// var sub3 = prompt("Enter Your Third Subject Name");
-// var TM = 100;
-// var ob1 = +(prompt("Enter Obtained Marks of First Subject"));
-// var ob2 = +(prompt("Enter Obtained Marks of Second Subject"));
-// var ob3 = +(prompt("Enter Obtained Marks of Third Subject"));
-// var per1, per2, per3, PER, OB;
-// per1 = (ob1 / TM) * 100;
-// per2 = (ob2 / TM) * 100;
-// per3 = (ob3 / TM) * 100;
-// OB = ob1 + ob2 + ob3;
-// PER = (OB / 300) * 100;
-
-// document.write("<table> <tr> <th>Subject</th> <th>Total Marks</th> <th>Obtained Marks</th> <th>Percentage</th> </tr> <tr> <td>" + sub1 + "</td> <td>" + TM + "</td> <td>" + ob1 + "</td> <td>" + per1 + "%</td> </tr> <tr> <td>" + sub2 + "</td> <td>" + TM + "</td> <td>" + ob2 + "</td> <td>" + per2 + "%</td> </tr> <tr> <td>" + sub3 + "</td> <td>" + TM + "</td> <td>" + ob3 + "</td> <td>" + per3 + "%</td> </tr> <tr> <td> </td> <th>" + 300 + "</th> <th>" + OB + "</th> <th>" + math.round(PER) + "%</th>  </tr> </table>");
+// document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percantage</th></tr><tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtained1 + "</td><td>" + per1 + "%" + "</td></tr><tr><td> " + subject2 + " </td><td> " + totalMarks +" </td><td>"+ obtained2 +"</td><td>"+ per2 +"%</td></tr><tr><td> "+ subject3 +" </td><td> "+ totalMarks +" </td><td> " + obtained3 + " </td><td> "+ per3 +"%</td></tr><tr><td></td><td> " + 300 + " </td><td>" + OB + "</td><td>"+ Math.round(PER) +"%</td></tr></table>")
