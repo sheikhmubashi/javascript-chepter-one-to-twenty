@@ -354,3 +354,47 @@
 // var OB = obtained1 + obtained2  + obtained3;
 // var PER = (OB / 300) * 100;
 // document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percantage</th></tr><tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtained1 + "</td><td>" + per1 + "%" + "</td></tr><tr><td> " + subject2 + " </td><td> " + totalMarks +" </td><td>"+ obtained2 +"</td><td>"+ per2 +"%</td></tr><tr><td> "+ subject3 +" </td><td> "+ totalMarks +" </td><td> " + obtained3 + " </td><td> "+ per3 +"%</td></tr><tr><td></td><td> " + 300 + " </td><td>" + OB + "</td><td>"+ Math.round(PER) +"%</td></tr></table>")
+
+
+//..............Chepter # 9 to 11..............//
+
+
+//.......... Question 1..........//
+
+
+// var city = prompt("Enter your city name ?");
+// var great = "Welcome to city of lights";
+// if (city === "karachi") {
+//   alert(great);
+// }
+
+//.......... Question 2..........//
+
+// var gander = prompt("What is your gander ?");
+// if (gander === "male") {
+//   alert("Good Morning Sir")
+// }
+// else if(gander === "female") {
+//   alert("Good Morning Mam")
+// }
+
+//.......... Question 3..........//
+
+var color = prompt("Enter Color");
+if (color === "red") {
+  // document.write("Must stop");
+  var result = "Must stop";
+
+}
+else if (color === "yellow") {
+  // document.write("Ready to move");
+  var result = "Ready to move";
+}
+else if (color === "green") {
+  // document.write("Move now");
+  var result = "Move now";
+}
+else{
+  var result = "Not Color Found";
+}
+document.write("<table><tr><th>Signal Color</th><th>Message</th><tr><tr><td>" + color + "</td><td>" + result + "</td></tr></table>")
