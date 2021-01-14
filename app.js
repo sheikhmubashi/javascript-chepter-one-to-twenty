@@ -380,21 +380,28 @@
 
 //.......... Question 3..........//
 
-var color = prompt("Enter Color");
-if (color === "red") {
-  // document.write("Must stop");
-  var result = "Must stop";
+// var color = prompt("Enter Color");
+// if (color === "red") {
+//   var result = "Must stop";
 
+// }
+// else if (color === "yellow") {
+//   var result = "Ready to move";
+// }
+// else if (color === "green") {
+//   var result = "Move now";
+// }
+// else{
+//   var result = "Not Color Found";
+// }
+// document.write("<table><tr><th>Signal Color</th><th>Message</th><tr><tr><td>" + color + "</td><td>" + result + "</td></tr></table>")
+
+//.......... Question 4..........//
+
+var fuel = prompt("Enter remaining fuel in your car ?");
+if (fuel < 0.25) {
+  alert("Please refill the fuel in your car");
 }
-else if (color === "yellow") {
-  // document.write("Ready to move");
-  var result = "Ready to move";
+else {
+  alert("Redy to move");
 }
-else if (color === "green") {
-  // document.write("Move now");
-  var result = "Move now";
-}
-else{
-  var result = "Not Color Found";
-}
-document.write("<table><tr><th>Signal Color</th><th>Message</th><tr><tr><td>" + color + "</td><td>" + result + "</td></tr></table>")
