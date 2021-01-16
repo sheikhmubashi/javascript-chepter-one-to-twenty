@@ -497,3 +497,30 @@
 //   alert(num + " is not devideable");
 // }
 
+
+//.......... Question 9..........//
+
+// var num = +prompt("Enter thr number");
+// var check = num % 2;
+// if (check === 0) {
+//   alert(num + " is even number ");
+// }
+// else {
+//   alert(num + " Its odd number");
+// }
+
+//.......... Question 10..........//
+
+var temprature = +prompt("Enter carrunt tamprature");
+if (temprature >= 40) {
+  alert("It is too hot outside");
+}
+else if (temprature >= 30) {
+  alert("The Weather today is Normal");
+}
+else if (temprature >= 20) {
+  alert("Today’s Weather is cool");
+}
+else if (temprature >= 10) {
+  alert("OMG! Today’s weather is so Cool");
+}
