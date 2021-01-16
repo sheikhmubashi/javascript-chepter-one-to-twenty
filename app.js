@@ -524,3 +524,27 @@ else if (temprature >= 20) {
 else if (temprature >= 10) {
   alert("OMG! Today’s weather is so Cool");
 }
+
+//.......... Question 11..........//
+
+var num1 = +prompt("Enter first number");
+var num2 = +prompt("Enter second number");
+var oprator = prompt("Enter operator", "+-*/%");
+if (oprator === "+") {
+    alert(num1 + num2 );
+}
+else if (oprator === "-") {
+  alert(num1 - num2);
+}
+else if (oprator === "*") {
+    alert(num1 * num2);
+}
+else if (oprator === "/") {
+    alert(num1 / num2);
+}
+else if (oprator === "%") {
+    alert(num1 % num2);
+}
+else {
+    alert("Operator is incorrect");
+}
