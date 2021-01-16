@@ -398,10 +398,102 @@
 
 //.......... Question 4..........//
 
-var fuel = prompt("Enter remaining fuel in your car ?");
-if (fuel < 0.25) {
-  alert("Please refill the fuel in your car");
-}
-else {
-  alert("Redy to move");
-}
+// var fuel = prompt("Enter remaining fuel in your car ?");
+// if (fuel < 0.25) {
+//   alert("Please refill the fuel in your car");
+// }
+// else {
+//   alert("Redy to move");
+// }
+
+//.......... Question 5..........//
+
+
+// var a = 4;
+// if (++a === 5) {
+//   alert("given condition of variavle a is true");
+// }
+
+// var b = 82;
+// if (b++ === 83) {
+//   alert("given condition of variable b is true");
+// }
+
+// var c = 12;
+// if (c++ === 13) {
+//   alert("Condition 1 is true");
+// }
+// if (c === 13) {
+//   alert("Condition 2 sd true");
+// }
+// if (++c < 14) {
+//   alert("Condition 3 is true");
+// }
+// if (c === 14) {
+//   alert("Condition 4 is true");
+// }
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === materialCost + laborCost) {
+//   alert("The cost equals");
+// }
+
+// if (true){
+//   alert("True");
+// }
+// if (false){
+//   alert("False");
+// }
+
+// if (car < cat) {
+//   alert("Car is smaller then cat");
+// }
+
+//.......... Question 6..........//
+
+// var obtainedOne = +prompt("Enter your obtained marks in subject one");
+// var obtainedTwo = +prompt("Enter your obtained marks in subject two");
+// var obtainedThree = +prompt("Enter your obtained marks in subject three");
+// var totalMarks = 300;
+// var totlaObtained = obtainedOne + obtainedTwo + obtainedThree;
+// var percantage = (totlaObtained / totalMarks) * 100;
+// if (percantage >= 80) {
+//   document.write("<div style='border: 1px solid black;'><center> <h1>Mark Sheet</h1> Total Marks : " + totalMarks + "<br> Marks obtained : " + totlaObtained + "<br> Percentage : " + Math.round(percantage) + "%<br>" + "Grade: A-one <br> Remarks : Excellent </center></div>");
+// }
+// else if (percantage >= 70) {
+//   document.write("<div style='border: 1px solid black;'><center> <h1>Mark Sheet</h1> Total Marks : " + totalMarks + "<br> Marks obtained : " + totlaObtained + "<br> Percentage : " + Math.round(percantage) + "%<br>" + "Grade: A <br> Remarks : Good </center></div>");
+// }
+// else if (percantage >= 60) {
+//   document.write("<div style='border: 1px solid black;'><center> <h1>Mark Sheet</h1> Total Marks : " + totalMarks + "<br> Marks obtained : " + totlaObtained + "<br> Percentage : " + Math.round(percantage) + "%<br>" + "Grade: B <br> Remarks : You need to improve </center></div>");
+// }
+// else if (percantage < 60) {
+//   document.write("<div style='border: 1px solid black;'><center> <h1>Mark Sheet</h1> Total Marks : " + totalMarks + "<br> Marks obtained : " + totlaObtained + "<br> Percentage : " + Math.round(percantage) + "%<br>" + "Grade: Fail <br> Remarks : Sorry </center></div>");
+// }
+
+//.......... Question 7..........//
+
+// var secret = 8;
+// var guess = +prompt("Enter secret number");
+// if (secret === guess) {
+//   alert("Bingo! Correct answer")
+// }
+// else if (guess === 7 || guess === 9) {
+//   alert("Close enough to the correct answer");
+// }
+// else {
+//   alert("Try next time");
+// }
+
+//.......... Question 8..........//
+
+// var num = +prompt("Enter The Number");
+// check = num % 3;
+// if (check === 0) {
+//   alert(num + " is devideable");
+// }
+// else {
+//   alert(num + " is not devideable");
+// }
+
