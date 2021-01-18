@@ -642,42 +642,41 @@
 // else if (time >= 2100 && time < 2359) {
 //   alert("Good Night");
 // }
-=======
-var temprature = +prompt("Enter carrunt tamprature");
-if (temprature >= 40) {
-  alert("It is too hot outside");
-}
-else if (temprature >= 30) {
-  alert("The Weather today is Normal");
-}
-else if (temprature >= 20) {
-  alert("Today’s Weather is cool");
-}
-else if (temprature >= 10) {
-  alert("OMG! Today’s weather is so Cool");
-}
 
-//.......... Question 11..........//
+// var temprature = +prompt("Enter carrunt tamprature");
+// if (temprature >= 40) {
+//   alert("It is too hot outside");
+// }
+// else if (temprature >= 30) {
+//   alert("The Weather today is Normal");
+// }
+// else if (temprature >= 20) {
+//   alert("Today’s Weather is cool");
+// }
+// else if (temprature >= 10) {
+//   alert("OMG! Today’s weather is so Cool");
+// }
 
-var num1 = +prompt("Enter first number");
-var num2 = +prompt("Enter second number");
-var oprator = prompt("Enter operator", "+-*/%");
-if (oprator === "+") {
-    alert(num1 + num2 );
-}
-else if (oprator === "-") {
-  alert(num1 - num2);
-}
-else if (oprator === "*") {
-    alert(num1 * num2);
-}
-else if (oprator === "/") {
-    alert(num1 / num2);
-}
-else if (oprator === "%") {
-    alert(num1 % num2);
-}
-else {
-    alert("Operator is incorrect");
-}
->>>>>>> e70896611f7932a3139ec8e56d84df6503a794e3
+// //.......... Question 11..........//
+
+// var num1 = +prompt("Enter first number");
+// var num2 = +prompt("Enter second number");
+// var oprator = prompt("Enter operator", "+-*/%");
+// if (oprator === "+") {
+//     alert(num1 + num2 );
+// }
+// else if (oprator === "-") {
+//   alert(num1 - num2);
+// }
+// else if (oprator === "*") {
+//     alert(num1 * num2);
+// }
+// else if (oprator === "/") {
+//     alert(num1 / num2);
+// }
+// else if (oprator === "%") {
+//     alert(num1 % num2);
+// }
+// else {
+//     alert("Operator is incorrect");
+// }
