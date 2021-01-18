@@ -511,16 +511,133 @@
 
 //.......... Question 10..........//
 
-var temprature = +prompt("Enter carrunt tamprature");
-if (temprature >= 40) {
-  alert("It is too hot outside");
-}
-else if (temprature >= 30) {
-  alert("The Weather today is Normal");
-}
-else if (temprature >= 20) {
-  alert("Today’s Weather is cool");
-}
-else if (temprature >= 10) {
-  alert("OMG! Today’s weather is so Cool");
-}
+// var temprature = +prompt("Enter carrunt tamprature");
+// if (temprature >= 40) {
+//   alert("It is too hot outside");
+// }
+// else if (temprature >= 30) {
+//   alert("The Weather today is Normal");
+// }
+// else if (temprature >= 20) {
+//   alert("Today’s Weather is cool");
+// }
+// else if (temprature >= 10) {
+//   alert("OMG! Today’s weather is so Cool");
+// }
+
+// //.......... Question 11..........//
+
+// var num1 = +prompt("Enter first number");
+// var num2 = +prompt("Enter second number");
+// var oprator = prompt("Enter operator", "+-*/%");
+// if (oprator === "+") {
+//     alert(num1 + num2 );
+// }
+// else if (oprator === "-") {
+//   alert(num1 - num2);
+// }
+// else if (oprator === "*") {
+//     alert(num1 * num2);
+// }
+// else if (oprator === "/") {
+//     alert(num1 / num2);
+// }
+// else if (oprator === "%") {
+//     alert(num1 % num2);
+// }
+// else {
+//     alert("Operator is incorrect");
+// }
+
+//..............Chepter # 9 to 11..............//
+
+
+// //.......... Question 1..........//
+
+
+// var character = prompt("Enter any latter");
+// var a = character.charCodeAt();
+// document.write(a);
+
+// //.......... Question 2..........//
+
+// var num1 = prompt("Enter first number");
+// var num2 = prompt("Enter second numer");
+// if (num1 > num2) {
+//   alert(num1 + " is greater then " + num2)
+// }
+// else if (num2 > num1) {
+//   alert(num2 + " is grater then " + num1);
+// }
+// else if (num1 === num2) {
+//   alert(num1 + " & " + num2 + " Both number is equal");
+// }
+
+// //.......... Question 3..........//
+
+
+// var number = +prompt("Enter number");
+// if (number > 0) {
+//   alert("Number is positive");
+// }
+// else if (number < 0) {
+//   alert("Number is nagitive");
+// }
+// else if (number === 0) {
+//   alert("Number is zero");
+// }
+
+// //.......... Question 4..........//
+
+// var vowel = prompt("Enter any character");
+// if (vowel === "A" || vowel === "E" || vowel === "I" || vowel === "O" || vowel === "U" || vowel === "Y" || vowel === "W") {
+//   alert("True")
+// }
+// else {
+//   alert("False");
+// }
+
+// //.......... Question 5..........//
+
+// var corectPassword = prompt("Enter your password");
+// var confirmPassword = prompt("Enter confirmed password");
+// if (corectPassword === confirmPassword) {
+//   alert("Correct! The password you entered matches the original password");
+// }
+// else if (confirmPassword === "") {
+//   alert("Please enter your password");
+// }
+// else if (corectPassword !== confirmPassword) {
+//   alert("Incorrect password");
+// }
+
+// //.......... Question 6..........//
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// alert(greeting);
+// }
+// else {
+// greeting = "Good evening";
+// alert(greeting);
+// }
+
+
+// //.......... Question 7..........//
+
+// var time = prompt("Enter Time in 24 hours format", "1900");
+// if (time >= 0000 && time < 1200) {
+//   alert("Good Morning!");
+// }
+// else if (time >= 1200 && time < 1700) {
+//   alert("Good Afternon!");
+// }
+// else if (time >= 1700 && time < 2100) {
+//   alert("Good Evening!")
+// }
+// else if (time >= 2100 && time < 2359) {
+//   alert("Good Night");
+// }
