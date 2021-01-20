@@ -511,7 +511,6 @@
 
 //.......... Question 10..........//
 
-<<<<<<< HEAD
 // var temprature = +prompt("Enter carrunt tamprature");
 // if (temprature >= 40) {
 //   alert("It is too hot outside");
@@ -550,7 +549,7 @@
 //     alert("Operator is incorrect");
 // }
 
-//..............Chepter # 9 to 11..............//
+//..............Chepter # 12 to 13..............//
 
 
 // //.......... Question 1..........//
@@ -643,40 +642,86 @@
 //   alert("Good Night");
 // }
 
-// var temprature = +prompt("Enter carrunt tamprature");
-// if (temprature >= 40) {
-//   alert("It is too hot outside");
-// }
-// else if (temprature >= 30) {
-//   alert("The Weather today is Normal");
-// }
-// else if (temprature >= 20) {
-//   alert("Today’s Weather is cool");
-// }
-// else if (temprature >= 10) {
-//   alert("OMG! Today’s weather is so Cool");
-// }
 
-// //.......... Question 11..........//
+//..............Chepter # 14 to 16..............//
 
-// var num1 = +prompt("Enter first number");
-// var num2 = +prompt("Enter second number");
-// var oprator = prompt("Enter operator", "+-*/%");
-// if (oprator === "+") {
-//     alert(num1 + num2 );
-// }
-// else if (oprator === "-") {
-//   alert(num1 - num2);
-// }
-// else if (oprator === "*") {
-//     alert(num1 * num2);
-// }
-// else if (oprator === "/") {
-//     alert(num1 / num2);
-// }
-// else if (oprator === "%") {
-//     alert(num1 % num2);
-// }
-// else {
-//     alert("Operator is incorrect");
-// }
+// //.......... Question 1..........//
+
+// var students = [];
+// document.write(students);
+
+// //.......... Question 2..........//
+
+// var students = {};
+// document.write(students);
+
+// //.......... Question 3..........//
+
+// var students = ["Mubashir", "Fahad", "Tariq", "Basit"];
+// document.write(students);
+
+// //.......... Question 4..........//
+
+// var students = [2, 4, 5, 6, 9];
+// document.write(students);
+
+// //.......... Question 5..........//
+
+// var students = [true, false];
+// document.write(students);
+
+// //.......... Question 6..........//
+
+
+// var students = ["Mubashir", 12, true, false];
+// document.write(students);
+
+// //.......... Question 7..........//
+
+// var education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"];
+// document.write("<h1>Qualification:</h1>" + "1) " + education[0] + "<br> 2) " + education[1] + "<br> 3) " + education[2] + "<br> 4) " + education[3] + "<br> 5) " + education[4] + "<br> 6) " + education[5] + "<br> 7) " + education[6] + "<br> 8) " + education[7]);
+
+// //.......... Question 8..........//
+
+// var students = [];
+// students[0] = prompt("Name of student 1");
+// students[1] = prompt("Name of student 2");
+// students[2] = prompt("Name of student 3");
+// var studentMarks = [];
+// studentMarks[0] = prompt("Student 1 marks ?"); 
+// studentMarks[1] = prompt("Student 2 marks ?");
+// studentMarks[2] = prompt("Student 3 marks ?");
+// totalMarks = 500;
+// var per1 = (studentMarks[0] / totalMarks) * 100; 
+// var per2 = (studentMarks[1] / totalMarks) * 100; 
+// var per3 = (studentMarks[2] / totalMarks) * 100; 
+
+// document.write("Score of " + students[0] + " is " + studentMarks[0] + ". Percantage: " + Math.round(per1) + "%<br>");
+// document.write("Score of " + students[1] + " is " + studentMarks[1] + ". Percantage: " + Math.round(per2) + "%<br>");
+// document.write("Score of " + students[2] + " is " + studentMarks[2] + ". Percantage: " + Math.round(per3) + "%<br>");
+
+
+// //.......... Question 9..........//
+
+// var colorNames = [];
+// colorNames[0] = prompt("Enter color wich you want to add at beggining"); 
+// document.write(colorNames[0] + ",");
+// colorNames[1] = prompt("Enter color wich you want to add at the end");
+// document.write(colorNames[1] + ",<br>");
+// var a = prompt("Enter a colors wich you want to add at beggining");
+// var b = prompt("Enter a colors wich you want to add at beggining");
+// colorNames.unshift(a)
+// colorNames.unshift(b)
+// document.write(colorNames + ",<br>");
+// colorNames.shift();
+// document.write(colorNames + ",<br>");
+// colorNames.pop();
+// document.write(colorNames + ",<br>");
+// var number = +prompt("Enter index");
+// var color = prompt("Enter color name");
+// colorNames.splice(number, 0, color);
+// document.write(colorNames);
+// var number = +prompt("Enter index");
+// var d = +prompt("Enter delete index");
+// colorNames.splice(number, d);
+// document.write(colorNames);
