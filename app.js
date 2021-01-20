@@ -725,3 +725,5 @@
 // var d = +prompt("Enter delete index");
 // colorNames.splice(number, d);
 // document.write(colorNames);
+
+
