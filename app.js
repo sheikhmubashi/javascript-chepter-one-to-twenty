@@ -726,4 +726,53 @@
 // colorNames.splice(number, d);
 // document.write(colorNames);
 
+// //.......... Question 10..........//
 
+// var score = [123, 323, 352, 328, 923, 289];
+// document.write("Scores of students: " + score);
+// var ordered = score.sort();
+// document.write("<br>Ordered Scores of students" + ordered);
+
+// //.......... Question 11..........//
+
+// var citiesList = ["Karachi", "Lahore", "Quetta", "Peshawar", "Hyedrabad<br>"];
+// document.write("City List: " + citiesList);
+// var copyCities = citiesList.slice(1, 4);
+// document.write("Selected city list: " + copyCities);
+
+// //.......... Question 12..........// 
+
+// var a = ["This", "is", "my", "cat"];
+// document.write("Array:<br>" + a);
+// b = a.join(" ");
+// document.write("<br>String: <br>" + b);
+
+
+// //.......... Question 13..........// 
+
+
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices: <br>" + devices);
+// document.write("<br><br> Out: <br>" + devices[0]);
+// document.write("<br> Out: <br>" + devices[1]);
+// document.write("<br> Out: <br>" + devices[2]);
+// document.write("<br> Out: <br>" + devices[3]);
+
+
+// //.......... Question 14..........// 
+
+// var devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+// document.write("Devices: <br>" + devices);
+// document.write("<br><br> Out: <br>" + devices[3]);
+// document.write("<br> Out: <br>" + devices[2]);
+// document.write("<br> Out: <br>" + devices[1]);
+// document.write("<br> Out: <br>" + devices[0]);
+
+// //.......... Question 15..........// 
+
+// var mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("<select><option>" + mobile[0] + "</option>" + "<option>" + mobile[1] + "</option>" + "<option>" + mobile[2] + "</option>" + "<option>" + mobile[3] + "</option>" + "<option>" + mobile[4] + "</option></select>");
+
+//..............Chepter # 17 to 20..............//
+
+// //.......... Question 1..........// 
