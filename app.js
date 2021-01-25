@@ -776,3 +776,124 @@
 //..............Chepter # 17 to 20..............//
 
 // //.......... Question 1..........// 
+
+// var multi = [
+//   [],
+//   [],
+//   [],
+//   [],
+//   [],
+//   [],
+// ];
+// document.write("<h1>Multidimension array: </h1>" + multi);
+
+// //.......... Question 2..........// 
+
+// var multi = [
+//   [0, 1, 2, 3 + "<br>"],
+//   [1, 0, 1, 2 + "<br>"],
+//   [2, 1, 0, 1 + "<br>"],
+// ];
+// document.write(multi[0][0] + " ");
+// document.write(multi[0][1] + " ");
+// document.write(multi[0][2] + " ");
+// document.write(multi[0][3] + " ");
+// document.write(multi[1][0] + " ");
+// document.write(multi[1][1] + " ");
+// document.write(multi[1][2] + " ");
+// document.write(multi[1][3] + " ");
+// document.write(multi[2][0] + " ");
+// document.write(multi[2][1] + " ");
+// document.write(multi[2][2] + " ");
+// document.write(multi[2][3] + " ");
+
+// //.......... Question 3..........// 
+
+// var a = 1;
+// for (a = 1; a <= 10; a++) {
+//   document.write(a + "<br>")
+// }
+
+// //.......... Question 4..........// 
+
+
+// var num = +prompt("Enter table number");
+// var leng = +prompt("Enter the length of table");
+// for (var i = 1; i <= leng; i++) {
+//   document.write(num + " x " + i + " = " +  num * i + " <br>");
+// }
+
+// //.......... Question 5..........// 
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (var i = 0; i < fruits.length; i++) {
+//   document.write(fruits[i] + "<br />");
+// }
+// document.write("<br />");
+// for (var j = 0; j < fruits.length; j++) {
+//   document.write("Element at index " + j + " is " + fruits[j] + "<br>");
+// }
+
+// //.......... Question 6..........// 
+
+// document.write("<h1>Counting:</h1>")
+// for (var i = 1; i <= 15; i++) {
+//   document.write(i + ",");
+// }
+// document.write("<h1>Reverse Counting:</h1>")
+// for (var j = 10; j >= 1; j--) {
+//   document.write(j + ",");
+// }
+// document.write("<h1>Even:</h1>")
+// for (var k = 0; k <= 20; k += 2) {
+//   document.write(k + ",");
+// }
+// document.write("<h1>Odd:</h1>")
+// for (var l = 1; l <= 20; l += 2) {
+//   document.write(l + ",");
+// }
+// document.write("<h1>Series:</h1>")
+// for (var m = 2; m <= 20; m += 2) {
+//   document.write(m + "k,");
+// }
+
+// //.......... Question 7..........// 
+
+// var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var order = prompt("Welcome to My Bakery. What do you want to order Sir/Mam ?");
+// for (var i = 1; i <= 1; i++) {
+//   if (order === bakery[0]) {
+//     document.write(order + " is available at index 0 in our bakery ");
+//   }
+//   else if (order === bakery[1]) {
+//     document.write(order + " is available at index 1 in our bakery ");
+//   }
+//   else if (order === bakery[2]) {
+//     document.write(order + " is available at index 2 in our bakery ");
+//   }
+//   else if (order === bakery[3]) {
+//     document.write(order + " is available at index 3 in our bakery ");
+//   }
+//   else if (order === bakery[4]) {
+//     document.write(order + " is available at index 4 in our bakery ");
+//   }
+//   else {
+//     document.write("We are sorry. " + order + " is not available in our bakery");
+//   }
+// }
+
+// //.......... Question 8..........// 
+
+var number = [24, 53, 78, 91, 12];
+document.write("Array Items: " + number + "<br />");
+var newNum = number.reverse();
+document.write(newNum);
+
+
+
+
+
+
+
+
+
